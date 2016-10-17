@@ -40,12 +40,12 @@ inquirer.prompt(questions).then(function(answers) {
   var front_matter = '---\n'
   for (var key in answers) {
     if (key === 'tags') {
-      front_matter += key + ':[ '
+      front_matter += key + ': [ '
       answers[key].forEach(function(tag, index) {
         front_matter += tag + ','
       })
       front_matter = front_matter.slice(0, -1) + ' ]\n'
-    } else front_matter += key + ':' + answers[key] + '\n'
+    } else front_matter += key + ': ' + answers[key] + '\n'
   }
   front_matter += '---\n\n'
 
