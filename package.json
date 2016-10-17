@@ -1,0 +1,27 @@
+{
+  "name": "thoughts",
+  "version": "1.0.0",
+  "description": "Just thoughts",
+  "main": "post.js",
+  "scripts": {
+    "post": "node post.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IniZio/Thoughts.git"
+  },
+  "author": "inizio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IniZio/Thoughts/issues"
+  },
+  "homepage": "https://github.com/IniZio/Thoughts#readme",
+  "dependencies": {
+    "create-file": "^1.0.1",
+    "inquirer": "^1.2.2",
+    "moment": "^2.15.1",
+    "path": "^0.12.7",
+    "sanitize-filename": "^1.6.1"
+  }
+}
