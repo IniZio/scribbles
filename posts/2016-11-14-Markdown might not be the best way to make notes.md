@@ -1,6 +1,6 @@
 ---
-title: Markdown might not be the best way to make notes...
-desc: Should I not use Markdown not notes?
+title: Markdown might not be the best way to make notes
+desc: Should I not use Markdown for notes?
 category: Study
 tags: [ math2111,comp2012,comp2611,comp2711 ]
 date: 2016-11-14
