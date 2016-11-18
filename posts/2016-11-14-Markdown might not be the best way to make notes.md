@@ -27,6 +27,9 @@ I am recently reading a book about making things simple, written by well-known E
 
 I have never been a fan of handwriting notes, given my 'lovely' handwriting and the contrast of markdown. Maybe I should change my opinions?
 
-## But even that
+## Going to attempt changes
 
-/* Preserved for future possibilities? */
+1. One lesson one post instead of one course one post, use pre-lession and pro-lesson
+2. no more point forms, more biased to scribbles form
+
+
