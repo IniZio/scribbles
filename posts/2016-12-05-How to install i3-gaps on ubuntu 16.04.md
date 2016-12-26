@@ -7,8 +7,6 @@ date: 2016-12-05
 filename: 2016-12-05-How to install i3-gaps on ubuntu 16.04
 ---
 
-# How to install i3-gaps on ubuntu 16.04
-
 #### Installation commands
 
 ```sh

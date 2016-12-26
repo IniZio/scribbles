@@ -7,8 +7,6 @@ date: 2016-12-21
 filename: 2016-12-21-Tailor SSH workspace without sudo
 ---
 
-# Tailor SSH workspace without sudo
-
 I have had a set of tools for my terminal workspace, but then since I need to work on a project, spent a few hours trying to figure out making tools such as my beloved shell ZSH, npm, Neovim, Linuxbrew to work without being sudoer
 
 #### Environment
@@ -100,7 +98,7 @@ Since the official installation script defaults to check the existance of zsh at
 1. Find the line with keyword `/etc/shells`
 2. Remove `exit` from the if statement where condition `/etc/shells` does not have zsh
 
-Also I use bulllet-train theme for zsh:
+###### Also I use bulllet-train theme for zsh:
 
 ```sh
 wget -P ~/.oh-my-zsh/themes https://raw.githubusercontent.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
