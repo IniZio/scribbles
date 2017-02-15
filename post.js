@@ -7,7 +7,7 @@ var sanitize = require('sanitize-filename')
 var now = moment().format('YYYY-MM-DD')
 
 var post_name = ''
-var current_subjects = ['math2111', 'comp2021', 'comp2521', 'engg1150', 'huma3250']
+var current_subjects = ['math2111', 'comp2021', 'comp2521', 'sosc2780', 'isomm2030']
 
 var questions = [{
   name: 'title',
