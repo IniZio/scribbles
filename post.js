@@ -7,7 +7,7 @@ var sanitize = require('sanitize-filename')
 var now = moment().format('YYYY-MM-DD')
 
 var post_name = ''
-var current_subjects = ['math2111', 'comp2021', 'comp2521', 'sosc2780', 'isomm2030']
+var current_subjects = ['math2111', 'comp2021', 'comp2521', 'sosc2780', 'isom2030']
 
 var questions = [{
   name: 'title',
@@ -36,6 +36,7 @@ function capitalize(s)
 
 inquirer.prompt(questions).then(function(answers) {
   answers['title'] = capitalize(answers['title'])
+  if (answers['category'] == 'Study'&& answers['tags']) answers['title'] = capitalize(answers['tags'][0])
   answers['date'] = now
   answers['filename'] = sanitize(answers['date'] + '-' + answers['title'])
   answers['desc'] = answers['desc']
