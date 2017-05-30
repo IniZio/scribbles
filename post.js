@@ -52,7 +52,7 @@ inquirer.prompt(questions).then(function(answers) {
       front_matter = front_matter.slice(0, -1) + ' ]\n'
     } else front_matter += key + ': ' + answers[key] + '\n'
   }
-  front_matter += '---\n\n# ' + answers['title']
+  front_matter += '---\n\n# '
 
   createFile('./posts/' + answers['filename'] + '.md', front_matter, function(err) {
     if (typeof(err) !== 'undefined' && err !== '') {
